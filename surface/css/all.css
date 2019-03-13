@@ -1,0 +1,271 @@
+@font-face {
+  font-family: 'Open Sans Bold';
+  font-display: swap;
+  src: url(../sources/fonts/OpenSans-Bold.woff2) format(woff2), url(../sources/fonts/OpenSans-Bold.woff) format(woff), url(../sources/fonts/OpenSans-Bold.ttf) format(ttf);
+  font-weight: 700;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header {
+  background-image: url(../sources/img/football_767.jpg);
+  background-position: 40% 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 3rem;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+  z-index: -3;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.header:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: inherit;
+  background: rgba(17, 19, 66, 0.9);
+  z-index: -2;
+  padding-top: 3rem;
+}
+
+.header-title {
+  display: flex;
+  font-size: 7vw;
+  flex-direction: column;
+  padding: 0 10%;
+}
+
+.header-title-text {
+  padding: 2% 0 0 15%;
+}
+
+.header-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20%;
+}
+
+.header-btn {
+  background-color: #6147a9;
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 5px 20px;
+  border-radius: 30px;
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+.header-btn-text {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  padding-top: 5%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.container-header {
+  color: #e7e7e7;
+  text-transform: uppercase;
+  font-size: 50px;
+  margin-bottom: 250px;
+  padding-left: 8%;
+}
+
+.container-header-players {
+  margin-top: 5%;
+}
+
+.container-picture {
+  position: absolute;
+  top: 60px;
+  align-self: center;
+}
+
+.container-picture-basket {
+  position: absolute;
+  align-self: center;
+  top: 983px;
+}
+
+.container-section {
+  padding: 0 8%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container-section h3 {
+  color: #c2c2c2;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.container-section span {
+  color: black;
+  border-bottom: 4px solid #7457b2;
+  font-size: 16px;
+  margin: 5px 5px 5px 0;
+}
+
+.container-section-first {
+  background-color: #fafafa;
+}
+
+.container-section-second {
+  background-color: #f4f3f7;
+}
+
+.container-section-third {
+  background-color: #7457b2;
+}
+
+.container-section-third span {
+  border-bottom: 4px solid #fff;
+}
+
+.container-section-third-basket {
+  background-color: #0e1334;
+  color: #fff;
+}
+
+.container-section-third-basket span {
+  color: #7457b2;
+  border-bottom: 4px solid #fff;
+}
+
+.second-container-section:not(:first-child) {
+  margin-top: 12%;
+}
+
+.second-container-section-body {
+  padding-left: 8%;
+}
+
+.second-container-section-body > span {
+  color: #fff;
+  bottom: 30px;
+  background-color: #7457b2;
+  padding: 30px;
+  position: relative;
+  z-index: 1;
+}
+
+.second-container-section-body > span:after {
+  content: "";
+  position: absolute;
+  top: 52px;
+  left: 25px;
+  right: 25px;
+  margin: auto;
+  background: #9075d4;
+  height: 4px;
+  z-index: 3;
+}
+
+.second-container-header {
+  color: #e7e7e7;
+  text-transform: uppercase;
+  font-size: 40px;
+  margin: 30px 0;
+}
+
+.footer {
+  background-image: url(../sources/img/game_767.jpg);
+  background-position: 40% 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+  z-index: -3;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 10%;
+}
+
+.footer:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: inherit;
+  background: rgba(17, 19, 66, 0.9);
+  z-index: -2;
+}
+
+.footer-surface-icon {
+  background-color: #6147a9;
+  height: 5em;
+  width: 5em;
+  border-radius: 20%;
+  position: relative;
+  align-self: center;
+  margin-bottom: 10%;
+}
+
+.footer-surface-icon svg {
+  position: absolute;
+  top: 10px;
+  left: 8px;
+}
+
+.footer-header {
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer-title {
+  font-size: 4vw;
+}
+
+.footer-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-btn {
+  background-color: #6147a9;
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 5px 20px;
+  border-radius: 30px;
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+.footer-btn-text {
+  display: flex;
+  flex-direction: column;
+}

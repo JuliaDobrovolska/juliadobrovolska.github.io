@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-image: url(../sources/img/football_1920.jpg);
+  background-size: cover;
+}
+
+.header-buttons {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5%;
+  justify-content: center;
+}
+
+.header-btn {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 0 10px;
+}
+
+.header-title {
+  font-size: 4vw;
+}
+
+.header-title-text {
+  padding-left: 20%;
+}
+
+.container-header {
+  padding-left: 55%;
+}
+
+.container-picture {
+  top: 0px;
+  left: 10%;
+  height: 500px;
+}
+
+.container-picture-basket {
+  top: 613px;
+}
+
+.container-section-athlets {
+  padding-left: 55%;
+}
+
+.container-section-basket {
+  padding-right: 55%;
+}
+
+.second-container-section {
+  margin-top: 0 !important;
+  display: grid;
+  grid-template-columns: 1fr minmax(50vw, 1fr);
+  grid-template-rows: 1fr;
+}
+
+.second-container-section:nth-child(even) picture {
+  grid-column: 2/3;
+}
+
+.second-container-section:nth-child(even) figure {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.second-container-section:nth-child(even) span {
+  left: 103%;
+}
+
+.second-container-section-body {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10%;
+}
+
+.second-container-section-body > span {
+  align-self: flex-start;
+  right: 22%;
+  top: 25%;
+}
+
+.footer {
+  background-image: url(../sources/img/game_1920.jpg);
+  margin-top: 0%;
+}
+
+.footer-title {
+  font-size: 2.5vw;
+}
+
+.footer-header {
+  flex-direction: row;
+}
+
+.footer-surface-icon {
+  margin: 2% 10px 0 0;
+}

@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-image: url(../sources/img/football_1280.jpg);
+}
+
+.header-buttons {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10%;
+  justify-content: center;
+}
+
+.header-btn {
+  width: 30%;
+  padding: 15px 20px;
+  margin: 0 10px;
+}
+
+.container-header {
+  padding-left: 37%;
+  margin-bottom: 0;
+}
+
+.container-header-players {
+  padding: 8% 0 0 8% !important;
+}
+
+.container-picture {
+  top: 0px;
+  align-self: flex-start;
+  left: -160px;
+}
+
+.container-picture-basket {
+  position: absolute;
+  align-self: center;
+  top: 600px;
+  right: 0;
+}
+
+.container-section-athlets {
+  padding-left: 37%;
+}
+
+.container-section-basket {
+  padding-right: 37%;
+}
+
+.container-section-first {
+  height: 150px;
+  background-color: #fff;
+}
+
+.footer {
+  background-image: url(../sources/img/game_1280.jpg);
+}
