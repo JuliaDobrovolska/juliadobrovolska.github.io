@@ -1,0 +1,57 @@
+.main article {
+  margin: 3% 10% 0 10%; }
+
+.main__settings, .main__start, .main__rules {
+  display: grid;
+  grid-template-columns: 47% 47%;
+  grid-template-rows: 50% 10%;
+  grid-column-gap: 6%;
+  grid-row-gap: 1%; }
+
+.main__content {
+  grid-row: 1/2; }
+  .main__content__rules {
+    overflow-y: scroll; }
+  .main__content__questions {
+    grid-row: 2/3; }
+
+.main__questions {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 5% 85% 10% 10%;
+  grid-column-gap: 6%;
+  grid-row-gap: 1%; }
+
+.main__button {
+  grid-row: 2/3;
+  grid-column-start: 1;
+  margin-top: 0;
+  padding: 15px 0;
+  width: 400px; }
+  .main__button__first {
+    grid-row: 3/4; }
+  .main__button__second {
+    grid-row: 4/5; }
+
+.main__media {
+  grid-column-start: 2;
+  grid-row: 1/3;
+  height: 57vh; }
+  .main__media__full {
+    width: 70%;
+    grid-row: 2/4; }
+    .main__media__full-video {
+      width: 33vw; }
+  .main__media__countdown {
+    grid-column-start: 2;
+    grid-row: 1/2;
+    margin: 0; }
+
+.play__text {
+  font-size: 1vw; }
+
+.play__img {
+  width: 20%; }
+
+.remember {
+  width: 350px; }
