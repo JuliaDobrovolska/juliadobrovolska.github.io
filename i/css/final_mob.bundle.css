@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "Open Sans Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/open-sans-cyrillic-regular.woff2") format("woff2"); }
+
+@font-face {
+  font-family: "Open Sans Bold";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("../fonts/open-sans-cyrillic-bold.woff2") format("woff2"); }
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  font-family: "Open Sans Regular"; }
+
+li {
+  list-style-type: none; }
+
+a {
+  text-decoration: none; }
+
+h1 {
+  font-family: "Open Sans Bold"; }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none; }
+
+.header {
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  z-index: 30;
+  position: sticky;
+  top: 0; }
+  .header__nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around; }
+
+.logo {
+  padding: 0.5% 0; }
+
+.lang {
+  display: grid;
+  grid-template-columns: repeat(3, min-content); }
+  .lang__item {
+    text-transform: uppercase;
+    color: #8b8b8b;
+    font-size: 0.8em;
+    padding: 0 20%; }
+    .lang__item--selected {
+      color: #424242;
+      font-weight: 600; }
