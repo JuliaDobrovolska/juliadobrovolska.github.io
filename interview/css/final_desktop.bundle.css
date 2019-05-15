@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "Open Sans Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/open-sans-cyrillic-regular.woff2") format("woff2"); }
+
+@font-face {
+  font-family: "Open Sans Bold";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("../fonts/open-sans-cyrillic-bold.woff2") format("woff2"); }
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  font-family: "Open Sans Regular"; }
+
+li {
+  list-style-type: none; }
+
+a {
+  text-decoration: none; }
+
+h1 {
+  font-family: "Open Sans Bold"; }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none; }
+
+.main {
+  margin: 4% 15% 0 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .main__content {
+    width: 100vw; }
+  .main__header {
+    font-size: 1.5em;
+    line-height: 1.2; }
+  .main__contacts {
+    margin-top: 7%; }
+    .main__contacts__title {
+      font-family: "Open Sans Bold";
+      text-transform: uppercase;
+      color: #424242; }
+    .main__contacts__tel, .main__contacts__mail, .main__contacts__name {
+      color: #595959;
+      margin: 0;
+      display: block; }
+  .main__picture {
+    width: 80%;
+    margin-left: 20%; }
