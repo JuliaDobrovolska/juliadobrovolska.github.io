@@ -187,6 +187,10 @@ main {
   z-index: 3;
 }
 
+.second-container-picture {
+  width: 100%;
+}
+
 .second-container-header {
   color: #e7e7e7;
   text-transform: uppercase;
